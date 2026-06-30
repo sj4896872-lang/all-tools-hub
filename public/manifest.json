@@ -1,0 +1,17 @@
+{
+  "short_name": "AllToolsHub",
+  "name": "All Tools Hub",
+  "description": "100% Free Interactive Step-by-Step Calculators for Mathematics, Finance, Health, and Engineering.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "/#/",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "display": "standalone",
+  "orientation": "portrait"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "All Tools Hub",
+  "description": "The world's largest online calculator platform, offering a comprehensive suite of fully functional math, finance, health, and engineering calculators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

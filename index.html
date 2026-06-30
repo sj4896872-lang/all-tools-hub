@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2563eb" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Primary SEO Metadata -->
+    <title>All Tools Hub - 100% Free Interactive Step-by-Step Calculators</title>
+    <meta name="description" content="Calculate mortgage loans, compound interest, BMI, body fat, Zakat, and GPA step-by-step. All Tools Hub provides 500+ free online calculators." />
+    <meta name="keywords" content="calculators, mortgage calculator, emi calculator, compound interest, bmi calculator, zakat calculator, gpa calculator, ohms law, bricks concrete calculator, conversion tools" />
+    <link rel="canonical" href="https://alltoolshub.com/" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alltoolshub.com/" />
+    <meta property="og:title" content="All Tools Hub - 100% Free Interactive Step-by-Step Calculators" />
+    <meta property="og:description" content="Calculate mortgage, loans, interest, health metrics, and construction materials with step-by-step math solvers." />
+    <meta property="og:image" content="https://alltoolshub.com/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://alltoolshub.com/" />
+    <meta property="twitter:title" content="All Tools Hub - 100% Free Interactive Step-by-Step Calculators" />
+    <meta property="twitter:description" content="The world's premium online calculator platform featuring mortgage, loan, BMI, math, and Zakat calculators." />
+    <meta property="twitter:image" content="https://alltoolshub.com/og-image.png" />
+
+    <!-- Google Consent Mode v2 Default Security Settings -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      
+      // Determine initial consent from localStorage
+      var consentVal = localStorage.getItem('all_tools_hub_cookie_consent');
+      var isConsentGranted = consentVal === 'accepted';
+      
+      gtag('consent', 'default', {
+        'ad_storage': isConsentGranted ? 'granted' : 'denied',
+        'analytics_storage': isConsentGranted ? 'granted' : 'denied',
+        'ad_user_data': isConsentGranted ? 'granted' : 'denied',
+        'ad_personalization': isConsentGranted ? 'granted' : 'denied',
+        'wait_for_update': 500
+      });
+    </script>
+
+    <!-- Google Tag (gtag.js) - Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3Z8F8N0W1"></script>
+    <script>
+      (function() {
+        var gaId = "%VITE_GA_MEASUREMENT_ID%";
+        if (!gaId || gaId.indexOf('%') === 0 || gaId === 'MY_GA_ID') {
+          gaId = 'G-L3Z8F8N0W1'; // Standard tracking placeholder
+        }
+        window.gaMeasurementId = gaId; // Expose globally for SPA dynamic tracking
+        gtag('js', new Date());
+        gtag('config', gaId, { 
+          'anonymize_ip': true,
+          'cookie_flags': 'SameSite=None;Secure'
+        });
+      })();
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){
+        var gtmId = "%VITE_GTM_CONTAINER_ID%";
+        if (!gtmId || gtmId.indexOf('%') === 0 || gtmId === 'MY_GTM_ID') {
+          gtmId = 'GTM-NK4V6S92'; // Standard container placeholder
+        }
+        w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+gtmId+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google AdSense Auto Ads & Crawler Verification -->
+    <script>
+      (function() {
+        var adClient = "%VITE_ADSENSE_CLIENT_ID%";
+        if (!adClient || adClient.indexOf('%') === 0 || adClient === 'MY_ADSENSE_ID') {
+          adClient = 'ca-pub-1234567890123456'; // Default publisher ID placeholder
+        }
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + adClient;
+        script.setAttribute('crossorigin', 'anonymous');
+        document.head.appendChild(script);
+      })();
+    </script>
+
+    <!-- Google Search Console Ownership Verification -->
+    <meta name="google-site-verification" content="GSC-VERIFICATION-TOKEN-PLACEHOLDER" />
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NK4V6S92"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
